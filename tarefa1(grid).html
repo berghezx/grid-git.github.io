@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Três Colunas na Mesma Linha</title>
+    <!-- Inclua os arquivos CSS do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilo CSS personalizado -->
+    <style>
+        /* Estilo para as colunas */
+        .colored-column {
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            font-family: helventica;
+            font-size: 3em;
+            line-height: 100px;
+        }
+
+        /* Estilo para a primeira coluna */
+        .col1 {
+            background-color: #000; /* Cor 1 */
+        }
+
+        /* Estilo para a segunda coluna */
+        .col2 {
+            background-color: #666; /* Cor 2 */
+        }
+
+        /* Estilo para a terceira coluna */
+        .col3 {
+            background-color: #999; /* Cor 3 */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- Primeira coluna -->
+            <div class="col-md-4 colored-column col1">
+                <h2> 1</h2>
+                
+            </div>
+
+            <!-- Segunda coluna -->
+            <div class="col-md-4 colored-column col2">
+                <h2>2</h2>
+                
+            </div>
+
+            <!-- Terceira coluna -->
+            <div class="col-md-4 colored-column col3">
+                <h2> 3</h2>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <a href="index.html">Voltar para a página inicial</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Inclua os arquivos JavaScript do Bootstrap (opcional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
